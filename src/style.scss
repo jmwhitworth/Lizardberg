@@ -5,8 +5,7 @@
  * Replace them with your own styles or remove the file completely.
  */
 
-.wp-block-lizardberg-lizardberg {
-	background-color: #21759b;
-	color: #fff;
-	padding: 2px;
+ .wp-block-lizardberg-lizardberg-image > img {
+	width: 100%;
+	height: auto;
 }

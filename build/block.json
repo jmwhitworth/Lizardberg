@@ -1,17 +1,35 @@
 {
   "$schema": "https://schemas.wp.org/trunk/block.json",
   "apiVersion": 3,
-  "name": "lizardberg/lizardberg",
+  "name": "lizardberg/lizardberg-image",
   "version": "0.1.0",
-  "title": "Lizardberg Image",
+  "title": "Lizard Image",
   "category": "media",
-  "icon": "smiley",
-  "description": "Desc",
+  "icon": "format-image",
+  "description": "A Gutenberg image block that does better at scaling",
   "example": {},
   "supports": {
     "html": false
   },
-  "textdomain": "lizardberg",
+  "textdomain": "lizardberg-image",
+  "attributes": {
+    "imageID": {
+      "type": "number",
+      "default": 0
+    },
+    "imageURL": {
+      "type": "string",
+      "default": ""
+    },
+    "minWidth": {
+      "type": "string",
+      "default": "90vw"
+    },
+    "maxWidth": {
+      "type": "string",
+      "default": "768px"
+    }
+  },
   "editorScript": "file:./index.js",
   "editorStyle": "file:./index.css",
   "style": "file:./style-index.css",

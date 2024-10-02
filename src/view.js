@@ -21,5 +21,5 @@
  */
 
 /* eslint-disable no-console */
-console.log( 'Hello World! (from lizardberg-lizardberg block)' );
+// console.log( 'Hello World! (from lizardberg-lizardberg block)' );
 /* eslint-enable no-console */
